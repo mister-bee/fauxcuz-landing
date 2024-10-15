@@ -129,15 +129,16 @@ export default function Home() {
             <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-center italic">
-                  "FauxCuz has revolutionized our product testing process. We
-                  get valuable insights in hours instead of weeks!"
+                  &ldquo;FauxCuz has revolutionized our product testing process.
+                  We get valuable insights in hours instead of weeks!&rdquo;
                 </p>
                 <p className="text-sm font-bold">- Sarah J., Product Manager</p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-center italic">
-                  "The diversity of AI personas in FauxCuz's focus groups has
-                  helped us uncover blind spots in our marketing strategy."
+                  &ldquo;The diversity of AI personas in FauxCuz&apos;s focus
+                  groups has helped us uncover blind spots in our marketing
+                  strategy.&rdquo;
                 </p>
                 <p className="text-sm font-bold">
                   - Mike T., Marketing Director
@@ -145,8 +146,8 @@ export default function Home() {
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-center italic">
-                  "As a startup, FauxCuz has been a game-changer. We can now
-                  iterate on ideas quickly without breaking the bank."
+                  &ldquo;As a startup, FauxCuz has been a game-changer. We can
+                  now iterate on ideas quickly without breaking the bank.&rdquo;
                 </p>
                 <p className="text-sm font-bold">- Emily R., Startup Founder</p>
               </div>
