@@ -2,16 +2,17 @@ import Link from "next/link";
 import { Button } from "@/app/components/ui/button";
 import { Input } from "@/app/components/ui/input";
 import { Braces, Lightbulb, Target, Users } from "lucide-react";
+import { ThemeToggle } from "@/app/components/ui/ThemeToggle";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="px-4 lg:px-6 h-14 flex items-center max-w-7xl mx-auto w-full">
+      <header className="px-4 lg:px-6 h-14 flex items-center justify-between max-w-7xl mx-auto w-full">
         <Link className="flex items-center justify-center" href="#">
           <Braces className="h-6 w-6" />
           <span className="sr-only">FauxCuz</span>
         </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
+        <nav className="flex items-center gap-4 sm:gap-6">
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
             href="#features"
@@ -30,6 +31,7 @@ export default function Home() {
           >
             Pricing
           </Link>
+          <ThemeToggle />
         </nav>
       </header>
       <main className="flex-1">
