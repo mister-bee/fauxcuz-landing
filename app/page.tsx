@@ -6,7 +6,7 @@ import { Braces, Lightbulb, Target, Users } from "lucide-react";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="px-4 lg:px-6 h-14 flex items-center">
+      <header className="px-4 lg:px-6 h-14 flex items-center max-w-7xl mx-auto w-full">
         <Link className="flex items-center justify-center" href="#">
           <Braces className="h-6 w-6" />
           <span className="sr-only">FauxCuz</span>
@@ -34,7 +34,7 @@ export default function Home() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6 max-w-6xl">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
@@ -56,7 +56,7 @@ export default function Home() {
           id="features"
           className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800"
         >
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6 max-w-6xl">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
               Features
             </h2>
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
         </section>
         <section id="how-it-works" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6 max-w-6xl">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
               How It Works
             </h2>
@@ -122,7 +122,7 @@ export default function Home() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6 max-w-6xl">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
               What Our Customers Say
             </h2>
@@ -155,9 +155,9 @@ export default function Home() {
           </div>
         </section>
         <section id="pricing" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6 max-w-6xl">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
-              Pricing Plans
+              Pricing Plans:
             </h2>
             <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
               <div className="flex flex-col items-center space-y-4 border p-4 rounded-lg">
@@ -196,7 +196,7 @@ export default function Home() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6 max-w-6xl">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -221,7 +221,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
+      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t max-w-7xl mx-auto">
         <p className="text-xs text-gray-500 dark:text-gray-400">
           © 2024 FauxCuz. All rights reserved.
         </p>
